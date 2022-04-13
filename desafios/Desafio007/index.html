@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de imagem flexível</title>
+</head>
+<body>
+    <h1>Usando imagens flexíveis</h1>
+    <p>Estou usando uma imagem que se adequa ao tamanho da tela do aparelho que está acessando meu site</p>
+    <picture>
+        <source media="(max-width:600px)" srcset="paisagem-p.png" type="image/png" alt="Foto pequena">
+        <source media="(max-width:900px)" srcset="paisagem-m.png" type="image/png" alt="Foto média">
+        <img src="paisagem-g.png" alt="Foto Original">
+    </picture>
+</body>
+</html>

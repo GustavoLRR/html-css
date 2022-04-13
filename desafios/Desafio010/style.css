@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+body {
+    font-family: 'idroid';
+    width: 80%;
+    background-image:linear-gradient(to left,#3DDC84,#83E1AD);
+    margin: 5px 80px;
+    
+}
+
+.navs {
+    font-family:'idroid';
+    font-size: 1.5em;
+}
+
+.navs:hover {
+    color:#8debb4;
+    cursor: pointer;
+}
+#menu {
+    font-family: 'idroid';
+    font-size: 45px;
+    padding-left: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+header {
+    background-color: #2FA866;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+section {
+    
+    margin-top: 5px;
+    background-color:#2FA866;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+h2 {
+    font-family: 'idroid';
+    text-align: center;
+}
+#mascotes {
+    background-color: #1A5C37;
+    border-radius: 20px;
+    margin: center;
+    
+}
+#video-android-pq{
+    width:300px;
+    height:150px;
+}
+
+#mascotes-pq {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+source {
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width: 6em;
+}
+
+p {
+    text-indent: 2em;
+}
+
+#bugdroid {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#enquad-irina {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+main {
+    border-width: 1200px;
+}
+
+iframe {
+    flex-wrap: auto;
+    text-align: center;
+}
+.v.android {
+    font-family: arial,sans-serif;
+    text-decoration: underline;
+    color: lightblue;
+    }
+.v.android:hover {
+    color: darkblue;
+    font-weight: bold;
+}

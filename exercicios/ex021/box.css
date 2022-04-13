@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* fazendo uma caixa com todas as propriedades de preenchimento, borda, contorno e margem.
+onde a largura da caixa é 300px
+a altura é 50px
+o conteudo interno da caixa será da cor lightgray
+o a borda será de estilo inteiro(solid) da cor vermelha
+terá um preenchimento de 20px (alterando o tamanho original de dentro(conteúdo) para a fora (borda)
+o contorno será de 30px, da cor azul e em linha inteira. 
+e a margem será de 50px. de fora (tamanho total da caixa)para dentro(borda) inclui-se aqui o tamanho do contorno(outline).
+*/
+/*
+body {
+    background-color: lightgreen;
+}
+h1 {
+    width: 250px;
+    height: 50px;
+    background-color:lightgray;
+    border-style: solid;
+    border-color: red;
+    padding: 10px 70px;
+    outline-width: 10px;
+    outline-style: solid;
+    outline-color: blue;
+    margin: 30px;
+}
+*/
+
+h1 {
+
+    background-color: lightgrey;
+    height:300px;
+    width:300px;
+    border: 10px solid darkslategray;
+
+    padding: 10px 20px;
+
+    margin: 20px auto 40px auto; 
+    
+    outline: 10px dashed blue; 
+}
+a {
+    border: 4px solid darkslategray;
+}

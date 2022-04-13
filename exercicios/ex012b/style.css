@@ -1,0 +1,20 @@
+body {
+    font: size 23px;
+    color: purple;
+    background-color: mediumseagreen
+    }
+
+h1 {
+    font-size: 60px;
+    color:green
+    }
+
+h2 {
+    font-size: 32px;
+    color:orange
+    }
+
+p {
+    font-style: italic;
+    color:crimson
+    }

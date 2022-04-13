@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'star';
+    src: url('fonts/Starjedi.ttf') format('truetype'),url('fonts/Starjhol.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-family:'star','Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+
+}
+p {
+    font-family: 'Lato';
+    font-size: 1em;
+    font-weight: bolder;
+}
