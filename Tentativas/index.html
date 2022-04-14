@@ -13,7 +13,7 @@
             position: relative;
             height:100vh;
             background-image: url('space-1164579_1280.webp');
-            background-size: contain;
+            background-size: cover;
         }
         section {
             position: absolute;
@@ -28,7 +28,6 @@
             background-position: center center;
             transform: translate(-50%, -50%);
             transition-duration: 0.2s;
-            
 
         }
 
@@ -40,6 +39,7 @@
         border-radius: 50%;
         box-shadow: 0px 0px 30px whitesmoke;
         transition-duration: 0.5s;
+
      }
     
      section:hover > article > p {
@@ -58,11 +58,32 @@
          color: transparent;
          margin:auto;
          text-align: center;
-         padding-top: 40px;
          font-weight: bolder;
          transition-duration: 0,6s;
         }
 
+@media (max-width: 771px) {
+    
+    section:hover {
+        height: 300px;
+        width: 300px;
+        background-image: url('terra.png');
+        background-size: 114%;
+        background-position: center center;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px whitesmoke;
+        transition-duration: 0.5s;
+}
+section:hover > article > p {
+         color: rgba(0, 0, 0, 0.63);
+         text-align: center;
+         text-shadow: 0px 0px 30px rgba(245, 245, 245, 0.767);
+         font-size: 3em;
+         padding-bottom: 40px;
+         font-family: 'Press Start 2P', cursive;
+         transition-delay: 0.2s;
+         cursor: pointer;
+}
     </style>
 </head>
 <body>
