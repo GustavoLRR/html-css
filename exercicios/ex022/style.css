@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url('mascote.png');
+    background-image: url('imagens/wallpaper001.jpg');
 }
 
 .quadrado {
@@ -23,5 +23,5 @@ body {
     background-image: linear-gradient(to bottom,yellow,orange);
 }
 #q3 {
-    background-image: url('pattern003.png');
+    background-image: url('imagens/pattern003.png');
 }
