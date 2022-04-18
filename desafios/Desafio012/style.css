@@ -9,7 +9,8 @@
 
 header {
     background-color:black;
-    width:100%;
+    width: 100%;
+    margin: auto;
 }
 h1 {
     font-family: 'Passion One', cursive;
@@ -23,17 +24,18 @@ h1 {
 }
 
 #link-poesias {
-    font-size: 3vw;
+    font-size: 1.5em;
     color: white;
     margin: auto;
     padding-bottom: 25px;
 }
 
 a {
+    margin: auto;
     text-decoration:none;
     color: white;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 1.5em;
 
 }
 a:hover {
@@ -41,33 +43,51 @@ a:hover {
 }
 
 body {
+    height: 98vh;
+    width: 100vw;
     background-color:rgb(133, 133, 133);
+
 }
 main {
-    max-width: 30vw;
+    position: relative;
+    width: 100%;
     margin: auto;
     padding: 20xp;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
 }   
 #img01 {
+    width: 100%;
     background-image: url('imagens/background001.jpg');
     background-size: cover;
-    background-position: right center;
+    background-position: bottom center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }    
 section {
+    padding: 20px;
     height: 30vh;
-    width: 100%;
-    background-color:white transparent;
+
 }
 p {
-    width: 30vw;
-    font-size: 1em;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    min-width: 360px;
+    font-size: 3vw;
+
 }
 .branco {
-    background-color: wheat;
+    background-color:white;
 }
 .transparente {
     background-color:rgba(128, 128, 128, 0.445);
+}
+#img02 {
+    width: 100%;
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
